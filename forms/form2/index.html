@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="backend.js">
+        <label for="name">Name: </label><br>
+        <input type="text" id="name" name="name" placeholder="Your Name"><br><br>
+        
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="pass"><br><br>
+
+        <label for="email">Email: </label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="message">Message: </label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+         
+        <label for="contact">contact</label>
+        <input type="number" name="contact" id="contact"><br><br>
+
+        <label for="gender">Gender: </label><br>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>  
+            <option value="female">Female</option>  
+        </select><br><br>
+        
+        <label for="color"> select color</label>
+         <input type="color" name="color" id="color" ><br><br> 
+        
+         <label for="dateandtime">select date  and time</label><br>
+         <input type="datetime-local" name="dateandtime" id="dateandtime"><br><br>
+         
+         <label for="fileupload">Upload file :</label><br>
+         <input type="file" name="fileupload" id="fileupload"><br><br>
+
+         <label for="approval">Is form complete</label>
+         <input type="radio" name="approval" id="yes" value="Yes"> Yes 
+         <input type="radio" name="approval" id="no" value="No"> No<br><br>
+          
+         <input type="image" src="https://images.unsplash.com/photo-1707345512638-997d31a10eaa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" height="150px" width="150px" alt="">
+         <br><br>
+         <label for="state">select state</label>
+         <select name="state" id="">
+            <option value="maharashtra">maharashtra</option>
+            <option value="gujarat">Gujarat</option>
+            <option value="delhi">dehli</option>
+    
+          </select>
+           <br><br>     
+          <input type="checkbox" name="vegetarian" id="veg">Vegetarian<br>
+          <input type="checkbox" name="non_vegetarian" id="nvg">Non Vegetarian<br><br>
+         <input type="submit" value="Submit">
+        </form>
+</body>
+</html>
