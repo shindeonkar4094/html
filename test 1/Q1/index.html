@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test form</title>
+</head>
+<body>
+    <form action="backend.js">
+        <div>
+        <label for="name">Name</label> 
+        <input type="text" id="name" name="name"><br><br>
+    </div>
+    <div>
+        <label for="email">Email address:</label>
+        <input type="email" id="email" name="email">
+    </div>
+    <br><br>
+     <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+     </div>
+     <br><br>
+     <div>
+        <label for="address">Address</label>
+        <textarea id="address" name="address" rows="4" cols="50"></textarea>
+     </div>
+     <br><br>
+     <div>
+        <label for="state">Select  State:</label>
+         <select id="state" name="state">
+            <option value="maharashtra">maharashtra</option>
+            <option value="gujarat">Gujarat</option>
+            <option value="delhi">Delhi</option>
+            <option value="uttarakhand">Uttarkhand</option>
+            <option value="rajasthan">rajasthan</option>
+
+         </select>
+
+     </div>
+     <br><br>
+     <div>
+     <label for="gender">Select Gender</label><br>
+     <input type="radio" id="male" name="gender" value="Male">Male <br>
+     <input type="radio" id="female" name="gender" value="Female">Female <br>
+    </div>
+     <br><br>
+     <div>
+        <input type="checkbox" name="" id="">I hearby declare that i will be passed in this test <br>
+     </div>
+     <br><br>
+     <div>
+        <input type="submit" value="Submit">
+     </div>
+    </form>
+    
+</body>
+</html>
