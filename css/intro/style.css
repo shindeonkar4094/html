@@ -1,0 +1,30 @@
+body{
+    border: 5px  dashed blueviolet;
+    background-color: aquamarine;
+}
+main{
+    border: 20px  solid red;
+    background-color: aqua;
+}
+p{
+    background-color:lightblue;
+    font-size: 18pt;
+    text-align: justify;
+}
+div{
+    background-color: blanchedalmond;
+    font-family: cursive;
+}
+h1{
+    color: darkred;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    background-color: chartreuse;
+    border:  15px double black;
+}

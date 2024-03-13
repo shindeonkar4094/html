@@ -1,0 +1,39 @@
+header{
+background-color:aqua;
+border: 5px dashed  black;}
+}
+
+h3{
+    font-style: italic;
+    color: darkblue;
+    background-color: beige;
+}
+
+.one{
+    background-color: aquamarine;
+    border-style: ;
+}
+
+.two{
+    background-color:  lightblue;
+}
+
+form {
+    background-color: blanchedalmond;
+}
+
+footer{
+    background-color: crimson;
+    font-family: cursive;
+}
+
+body{
+border: 10px  solid black;
+border-top:10px solid blue;
+border-right: 10px dotted  red;
+border-bottom:10px solid blue;
+border-left: 10px dotted  red;
+font-family:"Times New Roman", Times, serif;
+text-align:center;
+}
+
